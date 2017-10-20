@@ -1,0 +1,176 @@
+body
+  font-size: 12px
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+
+.header
+  height: .46rem
+  position: relative
+  .header-search
+    position: absolute
+    top: .15rem
+    right: .15rem
+  h1
+    font-weight: normal
+    font-size: 16px
+    height: .46rem
+    line-height: .46rem
+    div
+      margin: 0 auto
+      width: 1.02rem
+      height: 100%
+      span
+        margin-left: 10px
+        height: 100%
+        text-align: center
+        display: inline-block
+      span:nth-child(1)
+        border-bottom: 2px solid black
+
+.section
+  overflow-y: scroll
+  -webkit-flex: 1
+  ui-view
+    .swiper-container
+      height: 1.28rem
+      .swiper-wrapper
+        height: 1.28rem
+        .swiper-slide
+          height: 100%
+          img
+            width: 100%
+            height: 100%
+    .four-icon
+      padding: 0.15rem
+      height: 1.06rem
+      display: -webkit-flex
+      dl
+        -webkit-flex: 1
+        dt
+          width: .45rem
+          height: .45rem
+          border-radius: 15px
+          line-height: .45rem
+          text-align: center
+          color: white
+          margin: 0 auto
+          i
+            font-size: 25px
+            line-height: .45rem
+        dd
+          text-align: center
+      dl:nth-child(1)
+        dt
+          background-color: #ff6666
+      dl:nth-child(2)
+        dt
+          background-color: #ff9d3e
+      dl:nth-child(3)
+        dt
+          background-color: #ff6666
+      dl:nth-child(4)
+        dt
+          background-color: #4183ff
+    .banner
+      height: .75rem
+      img
+        width: 100%
+        height: auto
+    .server-list
+      height: 3.32rem
+      box-sizing: content-box
+      .list-title
+        padding: .15rem
+      .list-body
+        height: 2.60rem
+        div
+          border-top: 1px solid #ccc
+          display: -webkit-flex
+          dl
+            padding-top: .1rem
+            width: .9rem
+            height: .9rem
+            border-right: 1px solid #ccc
+            dt
+              width: .51rem
+              height: .6rem
+              margin: 0 auto
+            img
+              width: 100%
+              height: auto
+            dd
+              text-align: center
+        div:nth-child(2)
+          border-bottom: 1px solid #ccc
+        div:nth-child(3)
+          border-bottom: 1px solid #ccc
+    .flash-sale
+      height: 2rem
+      .sale-title
+        padding: .15rem
+      #wrapper
+        height: 1.5rem
+        overflow: hidden
+        ul
+          width: 150%
+          li
+            margin-left: .1rem
+            width: 1.33rem
+            height: 1.33rem
+            float: left
+            dl
+              dt
+                width: 1.33rem
+                height: .85rem
+                img
+                  width: 100%
+                  height: auto
+
+    .activity-zone
+      height: 1.9rem
+      .zone-title
+        padding: .15rem
+        display: -webkit-flex
+        div
+          -webkit-flex: 1
+        div:nth-child(2)
+          text-align: right
+          span:nth-child(1)
+            margin-right: 10px
+      .zone-body
+        height: 1.6rem
+        display: -webkit-flex
+        dl
+          -webkit-flex: 1
+          dd
+            padding-left: .1rem
+            h5
+              color: #fb5401
+          dt
+            width: 1.04rem
+            height: .8rem
+            img
+              width: 100%
+              height: auto
+
+
+
+.footer
+  height: .5rem
+  background-color: #fbfbfb
+  ul
+    padding-top: .08rem
+    height: .5rem
+    display: -webkit-flex
+    li
+      -webkit-flex: 1
+      display: -webkit-flex
+      -webkit-flex-direction: column
+      text-align: center
+
+
+
